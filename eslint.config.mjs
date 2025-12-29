@@ -13,6 +13,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Yarn PnP artifacts:
+    ".pnp.cjs",
+    ".pnp.loader.mjs",
+    ".yarn/**",
   ]),
   // Disable rules that conflict with Prettier.
   prettierConfig,

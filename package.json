@@ -11,6 +11,8 @@
     "lint:fix": "eslint . --fix",
     "format": "prettier . --check",
     "format:write": "prettier . --write",
+    "commitlint": "commitlint",
+    "lint-staged": "lint-staged",
     "prepare": "husky"
   },
   "lint-staged": {
@@ -28,6 +30,8 @@
     "react-dom": "19.2.3"
   },
   "devDependencies": {
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
